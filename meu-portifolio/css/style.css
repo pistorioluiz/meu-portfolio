@@ -89,6 +89,13 @@ nav a:hover {
   border-radius: 8px;
   text-decoration: none;
   font-weight: 600;
+  transition:
+    transform 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
 }
 
 .btn-primary {
@@ -96,8 +103,16 @@ nav a:hover {
   color: var(--bg-primary);
 }
 
+.btn-primary:hover {
+  background-color: var(--accent-secondary);
+}
+
 .btn-secondary {
   background-color: transparent;
   color: var(--accent-secondary);
   border: 1px solid var(--accent-primary);
+}
+
+.btn-secondary:hover {
+  background-color: var(--bg-secondary);
 }
