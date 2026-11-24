@@ -57,7 +57,13 @@ nav a:hover {
 #inicio h1 {
   font-size: 4rem;
   font-weight: 700;
-  color: var(--accent-primary);
+  color: transparent;
+  background: linear-gradient(
+    90deg,
+    var(--accent-primary),
+    var(--accent-secondary)
+  );
+  background-clip: text;
 }
 
 #inicio h2 {
