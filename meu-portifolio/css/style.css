@@ -42,3 +42,31 @@ nav a {
 nav a:hover {
   color: var(--accent-primary);
 }
+
+#inicio {
+  min-height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+  gap: 20px;
+}
+
+#inicio h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--accent-primary);
+}
+
+#inicio h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+#inicio p {
+  font-size: 1.1rem;
+  max-width: 650px;
+  color: var(--text-secondary);
+}
