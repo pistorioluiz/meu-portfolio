@@ -323,3 +323,8 @@ nav a:hover {
   border-color: var(--accent-primary);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 }
+
+.contact-card i {
+  font-size: 2.5rem;
+  color: var(--accent-secondary);
+}
