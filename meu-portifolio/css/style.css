@@ -59,7 +59,7 @@ nav a:hover {
   font-weight: 700;
   color: transparent;
   background: linear-gradient(
-    90deg,
+    120deg,
     var(--accent-primary),
     var(--accent-secondary)
   );
@@ -75,4 +75,29 @@ nav a:hover {
   font-size: 1.1rem;
   max-width: 650px;
   color: var(--text-secondary);
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: var(--accent-primary);
+  color: var(--bg-primary);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--accent-secondary);
+  border: 1px solid var(--accent-primary);
 }
