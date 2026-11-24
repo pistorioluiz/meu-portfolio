@@ -228,3 +228,44 @@ nav a:hover {
   gap: 48px;
   align-items: start;
 }
+
+.about-text h3,
+.about-skills h3 {
+  font-size: 1.5rem;
+  color: var(--accent-secondary);
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 18px;
+}
+
+.about-skills ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  list-style: none;
+}
+
+.about-skills li {
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  font-weight: 500;
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.about-skills li:hover {
+  transform: translateY(-3px);
+  border-color: var(--accent-primary);
+  background-color: var(--bg-primary);
+  color: var(--accent-secondary);
+}
