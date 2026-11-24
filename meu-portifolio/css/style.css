@@ -158,8 +158,7 @@ nav a:hover {
 }
 
 .project-card p {
-  color: var(--text-secondary);
-  flex-grow: 1rem;
+  font-size: 1rem;
 }
 
 .project-card h4 {
